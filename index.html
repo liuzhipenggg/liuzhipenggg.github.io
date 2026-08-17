@@ -6,30 +6,48 @@
   <title>Zhipeng Liu</title>
   <meta name="description" content="Zhipeng Liu, Ph.D. student at UCAS." />
   <link rel="canonical" href="https://liuzhipenggg.github.io/" />
+  <link rel="icon" href="assets/capeval-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <article class="readme">
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="eyebrow">University of Chinese Academy of Sciences</p>
     <h1>Zhipeng Liu</h1>
-    <p>Ph.D. student at the University of Chinese Academy of Sciences (UCAS).</p>
-    <p>
-      <a href="mailto:liuzp@ihep.ac.cn">Email</a>
-      · <a href="https://github.com/liuzhipenggg">GitHub</a>
-      · <a href="https://huggingface.co/LiuzhipengUCAS">Hugging Face</a>
-    </p>
-    <h2>Work</h2>
-    <p>
-      <strong><a href="https://arxiv.org/abs/2608.02589">CAPEval</a></strong>
-      — <em>A Decoupled Caption Evaluation across Understanding and Generation</em>
-    </p>
-    <p>Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang. arXiv:2608.02589, 2026.</p>
-    <p>
-      <a href="https://arxiv.org/abs/2608.02589">Paper</a>
-      · <a href="https://liuzhipenggg.github.io/CAPEval/">Project</a>
-      · <a href="https://github.com/liuzhipenggg/CAPEval">Code</a>
-      · <a href="https://huggingface.co/datasets/LiuzhipengUCAS/CAPEval">Dataset</a>
-      · <a href="https://liuzhipenggg.github.io/CAPEval/leaderboard/">Leaderboard</a>
-    </p>
-  </article>
+    <p class="role">Ph.D. student</p>
+    <nav class="links" aria-label="Contact">
+      <a href="mailto:liuzp@ihep.ac.cn">liuzp@ihep.ac.cn</a>
+      <a href="https://github.com/liuzhipenggg">GitHub</a>
+      <a href="https://huggingface.co/LiuzhipengUCAS">Hugging Face</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="block featured" id="work">
+      <div class="featured-copy">
+        <p class="kicker">Work</p>
+        <h2>CAPEval</h2>
+        <p class="subtitle">A Decoupled Caption Evaluation across Understanding and Generation</p>
+        <p class="meta">Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang · arXiv:2608.02589</p>
+        <div class="cta">
+          <a class="btn primary" href="https://arxiv.org/abs/2608.02589">Paper</a>
+          <a class="btn" href="https://liuzhipenggg.github.io/CAPEval/">Project</a>
+          <a class="btn" href="https://github.com/liuzhipenggg/CAPEval">Code</a>
+          <a class="btn" href="https://huggingface.co/datasets/LiuzhipengUCAS/CAPEval">Dataset</a>
+          <a class="btn" href="https://liuzhipenggg.github.io/CAPEval/leaderboard/">Leaderboard</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="y"></span> Zhipeng Liu</span>
+    <a href="mailto:liuzp@ihep.ac.cn">Contact</a>
+  </footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
