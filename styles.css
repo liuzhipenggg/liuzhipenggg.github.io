@@ -9,12 +9,14 @@ body {
 
 .readme {
   max-width: 768px;
-  margin: 40px auto 64px;
+  margin: 48px auto 64px;
   padding: 0 16px;
 }
 
-.readme p {
-  margin: 0 0 16px;
+.readme h1 {
+  margin: 0 0 8px;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 .readme h2 {
@@ -23,6 +25,10 @@ body {
   font-size: 1.5em;
   font-weight: 600;
   border-bottom: 1px solid #d1d9e0;
+}
+
+.readme p {
+  margin: 0 0 16px;
 }
 
 .readme a {
