@@ -4,109 +4,45 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zhipeng Liu</title>
-  <meta name="description" content="Zhipeng Liu — Ph.D. student at UCAS. Research on LLMs, VLMs, and caption evaluation." />
-  <meta name="author" content="Zhipeng Liu" />
+  <meta name="description" content="Zhipeng Liu, Ph.D. student at UCAS." />
   <link rel="canonical" href="https://liuzhipenggg.github.io/" />
-  <meta property="og:title" content="Zhipeng Liu" />
-  <meta property="og:description" content="Ph.D. student at UCAS. Large language and vision–language models; caption evaluation." />
-  <meta property="og:url" content="https://liuzhipenggg.github.io/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://liuzhipenggg.github.io/assets/capeval-overview.png" />
   <link rel="icon" href="assets/capeval-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
-
   <header class="hero">
-    <p class="eyebrow">University of Chinese Academy of Sciences</p>
     <h1>Zhipeng Liu</h1>
-    <p class="role">Ph.D. student · multimodal learning</p>
-    <p class="lede">
-      I work on large language and vision–language models, with a focus on
-      <em>caption engineering</em> — how dense, reliable image descriptions are built,
-      measured, and used as supervision for understanding and generation.
-    </p>
-    <nav class="links" aria-label="Contact">
-      <a href="mailto:liuzp@ihep.ac.cn">liuzp@ihep.ac.cn</a>
+    <p class="role">Ph.D. student, University of Chinese Academy of Sciences</p>
+    <nav class="links">
+      <a href="mailto:liuzp@ihep.ac.cn">Email</a>
       <a href="https://github.com/liuzhipenggg">GitHub</a>
       <a href="https://huggingface.co/LiuzhipengUCAS">Hugging Face</a>
     </nav>
   </header>
 
   <main>
-    <section class="block research" id="research">
-      <h2>Research</h2>
+    <section class="block">
+      <h2>Work</h2>
       <p>
-        Current themes: multimodal captioning, checklist-style evaluation of captions,
-        and how caption <strong>coverage</strong> vs <strong>precision</strong> transfer to
-        downstream VLM understanding and text-to-image generation.
+        <a class="work-title" href="https://arxiv.org/abs/2608.02589">CAPEval</a>
+        is a caption evaluation benchmark.
+        Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang. arXiv:2608.02589, 2026.
       </p>
-    </section>
-
-    <section class="block featured" id="work">
-      <div class="featured-copy">
-        <p class="kicker">Selected work</p>
-        <h2>CAPEval</h2>
-        <p class="subtitle">
-          A Decoupled Caption Evaluation across<br />
-          understanding and generation
-        </p>
-        <p>
-          CAPEval decomposes caption quality into Coverage (C) and Precision (P)
-          using human-written ground-truth captions and atomic checklists.
-          Empirically, coverage tracks understanding; precision tracks generation.
-        </p>
-        <p class="meta">Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang · arXiv:2608.02589</p>
-        <div class="cta">
-          <a class="btn primary" href="https://arxiv.org/abs/2608.02589">Paper</a>
-          <a class="btn" href="https://liuzhipenggg.github.io/CAPEval/">Project page</a>
-          <a class="btn" href="https://github.com/liuzhipenggg/CAPEval">Code</a>
-          <a class="btn" href="https://huggingface.co/datasets/LiuzhipengUCAS/CAPEval">Dataset</a>
-          <a class="btn" href="https://liuzhipenggg.github.io/CAPEval/leaderboard/">Leaderboard</a>
-        </div>
-      </div>
-      <figure class="featured-visual">
-        <img src="assets/capeval-overview.png" alt="CAPEval overview: checklist scoring and downstream protocol" />
-      </figure>
-    </section>
-
-    <section class="block pubs" id="publications">
-      <h2>Publications</h2>
-      <ol class="pub-list">
-        <li>
-          Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang.
-          <cite>CAPEval: A Decoupled Caption Evaluation across Understanding and Generation.</cite>
-          arXiv preprint arXiv:2608.02589, 2026.
-          <span class="pub-links">
-            <a href="https://arxiv.org/abs/2608.02589">arXiv</a>
-            <a href="https://liuzhipenggg.github.io/CAPEval/">project</a>
-            <a href="https://github.com/liuzhipenggg/CAPEval">code</a>
-          </span>
-        </li>
-      </ol>
-    </section>
-
-    <section class="block about" id="about">
-      <h2>About</h2>
-      <p>
-        I am a Ph.D. student at the University of Chinese Academy of Sciences (UCAS).
-        My work sits at the intersection of LLMs, VLMs, and evaluation methodology
-        for multimodal supervision signals.
+      <p class="work-links">
+        <a href="https://arxiv.org/abs/2608.02589">Paper</a>
+        <a href="https://liuzhipenggg.github.io/CAPEval/">Project</a>
+        <a href="https://github.com/liuzhipenggg/CAPEval">Code</a>
+        <a href="https://huggingface.co/datasets/LiuzhipengUCAS/CAPEval">Dataset</a>
       </p>
     </section>
   </main>
 
   <footer class="footer">
     <span>© <span id="y"></span> Zhipeng Liu</span>
-    <a href="mailto:liuzp@ihep.ac.cn">Contact</a>
   </footer>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
