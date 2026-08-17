@@ -1,20 +1,23 @@
 # Zhipeng Liu — personal homepage
 
-Static academic homepage for GitHub Pages.
+Static site for GitHub Pages: https://liuzhipenggg.github.io/
 
-## Local preview
+## Preview
 
-Open `index.html` in a browser, or:
+```bash
+python3 -m http.server 8765
+```
+
+Then open http://127.0.0.1:8765
+
+## Push
+
+Create a **public** repository named `liuzhipenggg.github.io` (empty, no README), then:
 
 ```bash
 cd /Users/galaxy/Projects/liuzhipenggg.github.io
-python3 -m http.server 8765
-# http://127.0.0.1:8765
+git remote -v   # origin should be https://github.com/liuzhipenggg/liuzhipenggg.github.io.git
+git push -u origin main
 ```
 
-## Deploy
-
-1. Create a **public** repo named exactly `liuzhipenggg.github.io` under [liuzhipenggg](https://github.com/liuzhipenggg)
-2. Push this folder as the initial commit (message: `Initial commit` — avoid Cursor co-author trailers)
-3. Settings → Pages → Deploy from branch `main` / root  
-   Site: https://liuzhipenggg.github.io/
+GitHub Pages for a `username.github.io` repo serves `main` from the root automatically. After the first push, wait a minute and open https://liuzhipenggg.github.io/

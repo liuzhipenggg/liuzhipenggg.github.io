@@ -119,7 +119,8 @@ main,
 
 .research { animation-delay: 0.08s; }
 .featured { animation-delay: 0.14s; }
-.about { animation-delay: 0.2s; }
+.pubs { animation-delay: 0.18s; }
+.about { animation-delay: 0.22s; }
 
 .block h2 {
   margin: 0 0 0.85rem;
@@ -224,6 +225,41 @@ main,
 
 .about {
   padding-bottom: 2.5rem;
+}
+
+.pub-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  max-width: 42rem;
+  color: #303846;
+}
+
+.pub-list li + li {
+  margin-top: 0.85rem;
+}
+
+.pub-list cite {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 550;
+}
+
+.pub-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+  margin-left: 0.35rem;
+}
+
+.pub-links a {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
 }
 
 .footer {
