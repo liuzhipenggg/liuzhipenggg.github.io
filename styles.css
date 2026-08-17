@@ -1,93 +1,35 @@
-:root {
-  --ink: #1a1a1a;
-  --mute: #5c5c5c;
-  --line: #e6e6e6;
-  --link: #0b5f8a;
-  --serif: "Fraunces", Georgia, serif;
-  --sans: "Outfit", "Segoe UI", sans-serif;
-}
-
-* { box-sizing: border-box; }
-
 body {
   margin: 0;
-  color: var(--ink);
-  font-family: var(--sans);
-  line-height: 1.55;
-  background: #fafafa;
+  color: #1f2328;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
 }
 
-.hero,
-main,
-.footer {
-  width: min(640px, calc(100% - 2.4rem));
-  margin: 0 auto;
+.readme {
+  max-width: 768px;
+  margin: 40px auto 64px;
+  padding: 0 16px;
 }
 
-.hero {
-  padding: 4.5rem 0 1.5rem;
+.readme p {
+  margin: 0 0 16px;
 }
 
-.hero h1 {
-  margin: 0;
-  font-family: var(--serif);
-  font-size: 2.4rem;
+.readme h2 {
+  margin: 24px 0 16px;
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
   font-weight: 600;
-  letter-spacing: -0.03em;
+  border-bottom: 1px solid #d1d9e0;
 }
 
-.role {
-  margin: 0.6rem 0 0;
-  color: var(--mute);
-}
-
-.links {
-  display: flex;
-  gap: 1.1rem;
-  margin-top: 1.2rem;
-}
-
-.links a,
-.work-links a,
-.work-title {
-  color: var(--link);
-  font-weight: 500;
+.readme a {
+  color: #0969da;
   text-decoration: none;
 }
 
-.links a:hover,
-.work-links a:hover,
-.work-title:hover {
+.readme a:hover {
   text-decoration: underline;
-}
-
-.block {
-  padding: 1.5rem 0 2rem;
-  border-top: 1px solid var(--line);
-}
-
-.block h2 {
-  margin: 0 0 0.7rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--mute);
-}
-
-.block p {
-  margin: 0;
-  color: #333;
-}
-
-.work-links {
-  display: flex;
-  gap: 1.1rem;
-  margin-top: 0.85rem !important;
-}
-
-.footer {
-  padding: 0 0 2.5rem;
-  color: var(--mute);
-  font-size: 0.9rem;
 }
