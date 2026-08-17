@@ -64,7 +64,7 @@ main,
   margin: 0;
   font-family: var(--serif);
   font-size: clamp(2.8rem, 8vw, 4.6rem);
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 1.02;
 }
@@ -126,7 +126,7 @@ main,
   margin: 0 0 0.85rem;
   font-family: var(--serif);
   font-size: clamp(1.55rem, 3vw, 2rem);
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
@@ -143,7 +143,7 @@ main,
 .kicker {
   margin: 0 0 0.45rem !important;
   font-size: 0.78rem;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: 0.11em;
   text-transform: uppercase;
   color: var(--warm);
